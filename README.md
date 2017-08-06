@@ -1,7 +1,7 @@
 Yii 2 Basic Project Template
 ============================
 
-Example Project for Medium's post
+Example Project for Medium's post [How to perform sql expression on Yii Gridview](https://medium.com/@jacksontong/how-to-perform-sql-expression-on-yii-gridview-6f75fc6d9a38)
 
 DIRECTORY STRUCTURE
 -------------------
@@ -31,6 +31,7 @@ INSTALLATION
 ------------
 
 * Download and install [Docker Comunity Edition](https://www.docker.com/get-docker)
+* run `composer install`
 * Makes a new file .env on the project's root directory and copy the content from .env-example
 * Run this command on the project's root directory `docker-composer up -d` to shutdown run `docker-compose stop`
 * Run `docker-compose exec php-fpm php yii migrate` to seed the database
